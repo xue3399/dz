@@ -1,0 +1,120 @@
+.box-body h2{
+    display: block;
+    font-size: 28px;
+    font-family: "Microsoft Yahe";
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    text-align: center;
+    color: #494949;
+}
+.box-body p{
+    display: block;
+    width: 100%;
+    border:1px solid #d9d9d9;
+    margin-top: 14px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 2px;
+}
+.box-body p label{
+    width: 15.7%;
+    float: left;
+    font-size: 20px;
+    color: #4d4d4d;
+    text-indent: 4.5%;
+}
+.box-body p input{
+    width: 72%;
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    color: #cccccc;
+}
+.box-body p>span{
+    display: block;
+    width:12%;
+    float: left;
+    height: 100%;
+    border-left:1px solid #d9d9d9;
+    position: relative;
+}
+.box-body p>span img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.box-body .btn{
+    width:100%;
+    margin-top: 21px;
+}
+.box-body .btn input{
+    display: block;
+    width:46.9%;
+    float: left;
+    font-size: 22px;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    background: #f27243;
+    border-radius: 5px;
+}
+.box-body .btn input:last-of-type{
+    float: right;
+    background: #3299f7;
+}
+.modify{
+    width: 100%;
+    margin-top: 26px;
+}
+.modify a{
+    font-size: 20px;
+    color: #f27243;
+    text-decoration: underline;
+}
+.modify a:last-of-type{
+    float: right;
+}
+.footer{
+    width: 460px;
+    margin: 10px auto;
+}
+.footer p{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #8a8a8a;
+    background: url("../image/t_07.jpg") no-repeat 146px 10px ,url("../image/t_09.jpg") no-repeat 280px 10px;
+}
+.footer .Other{
+    width:100%;
+    margin-top: 10px;
+}
+.footer .Other a{
+    display: block;
+    width: 44px;
+    height: 16px;
+    padding-top: 46px;
+    float: left;
+    font-size: 14px;
+    color: #35b19b;
+    text-align: center;
+    margin-left: 94px;
+    margin-bottom: 16px;
+}
+.footer .Other a:first-of-type{
+    background: url("../image/lx_14.jpg") no-repeat 0px 0px;
+    margin-left: 0px;
+}
+.footer .Other a:nth-of-type(2){
+    background: url("../image/lx_16.jpg") no-repeat 0px 0px;
+}
+.footer .Other a:nth-of-type(3){
+    background: url("../image/lx_18.jpg") no-repeat 0px 0px;
+}
+.footer .Other a:nth-of-type(4){
+    background: url("../image/lx_20.png") no-repeat 0px 0px;
+}

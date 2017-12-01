@@ -1,0 +1,34 @@
+.box-body p{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #494949;
+    margin-top: 10px;
+    position: relative;
+}
+.box-body p:first-of-type{
+    margin-top: 20px;
+}
+.box-body p:first-of-type span{
+    color: #cb1515;
+}
+.box-body p:last-of-type img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 110px;
+    top:-5px;
+}
+.box-body a{
+    display: block;
+    width: 270px;
+    margin: 40px auto;
+    font-size: 24px;
+    color: #fff;
+    background: #3299f7;
+    border-radius: 5px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+}
